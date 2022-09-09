@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Automatic Engine",
+        "price": 2000,
+        "img": "https://www.pv-magazine.com/wp-content/uploads/2022/03/cq5dam.web_.2000.2000-1200x675.jpeg",
+        "minimum": 200,
+        "stock": 300
+    },
+    {
+        "name": "Isolated V6 Engine",
+        "price": 2500,
+        "minimum": 200,
+        "img": "https://st2.depositphotos.com/3562409/9008/i/950/depositphotos_90080926-stock-photo-isolated-v6-engine.jpg",
+        "stock": 300
+    },
+    {
+        "name": "Transmission Gear",
+        "price": 1250,
+        "minimum": 200,
+        "img": "https://5.imimg.com/data5/JB/FS/MY-8166125/ms-gear-500x500.jpg",
+        "stock": 400
+    },
+    {
+        "name": "Manual Gear",
+        "price": 1000,
+        "minimum": 200,
+        "img": "https://cdn.shopify.com/s/files/1/1272/9301/products/GenuineBMWMPerformanceF30F31F32F36ManualGearKnobWithAlcantaraBoot_Inc.330d_335i_435i_440i_-1.jpg?v=1627279773",
+        "stock": 400
+    },
+    {
+        "name": "Automatic Gear",
+        "price": 1200,
+        "minimum": 200,
+        "img": "https://c8.alamy.com/comp/KTX2WA/vehicle-gear-stick-automatic-transmission-3d-illustration-KTX2WA.jpg",
+        "stock": 400
+    },
+    {
+        "name": "Shaft",
+        "price": 350,
+        "minimum": 200,
+        "img": "https://5.imimg.com/data5/TC/WW/VZ/SELLER-75142906/1-jpg-relay-500x500.jpg",
+        "stock": 400
+    },
+    {
+        "name": "Isolated-V6-Engine",
+        "price": 450,
+        "minimum": 200,
+        "img": "https://st2.depositphotos.com/3562409/9008/i/950/depositphotos_90080926-stock-photo-isolated-v6-engine.jpg",
+        "stock": 600
+    },
+    {
+        "name": "Rotor",
+        "price": 350,
+        "minimum": 200,
+        "img": "https://image.made-in-china.com/44f3j00yQaWRsHKYMzL/Auto-Brake-Disc-Car-Brake-Rotor-Factory-Price-Disc-Brake-Disc.jpg",
+        "stock": 600
+    },
+    {
+        "name": "Accelerator",
+        "price": 550,
+        "minimum": 200,
+        "img": "https://cdn.shopify.com/s/files/1/0606/8397/6961/products/zhutu_e7396822-8e5f-4946-9742-e8863b0b8596.jpg?v=1636792175",
+        "stock": 700
+    },
+    {
+        "name": "Brake",
+        "price": 645,
+        "minimum": 200,
+        "img": "https://image.made-in-china.com/2f0j00ysjlbIRMCDzT/Direct-Price-Brake-Valve-Brake-System-Car-Parts-9730110010.jpg",
+        "stock": 500
+    },
+    {
+        "name": "Music System",
+        "price": 400,
+        "minimum": 200,
+        "img": "https://img.joomcdn.net/ff232ad6549dc3fadb9ce487200f1375c6a12ece_original.jpeg",
+        "stock": 600
+    },
+    {
+        "name": "Engine Oil",
+        "price": 450,
+        "minimum": 200,
+        "img": "https://media.istockphoto.com/photos/motor-oil-canister-on-white-isolated-background-picture-id1046529090?k=20&m=1046529090&s=612x612&w=0&h=G9TZbxPGfcFiKbN7JZoUhF2gEexDMEL2q07aesttxxg=",
+        "stock": 400
+    },
+    {
+        "name": "Tyre",
+        "price": 350,
+        "minimum": 200,
+        "img": "https://st.depositphotos.com/1032712/1489/i/450/depositphotos_14897429-stock-photo-automobile-tire-wheel-3d-icon.jpg",
+        "stock": 700
+    },
+    {
+        "name": "Head Light",
+        "price": 500,
+        "minimum": 200,
+        "img": "https://m.media-amazon.com/images/I/51tN5HvhOyL.jpg",
+        "stock": 600
+    },
+    {
+        "name": "Bearing",
+        "price": 445,
+        "minimum": 200,
+        "img": "https://diequa.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-06-at-9.34.50-AM.png",
+        "stock": 500
+    }
+]
