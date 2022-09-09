@@ -12,7 +12,7 @@ const MyOrder = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:7000/order/user/${user.email}`, {
+            fetch(`https://gentle-peak-72216.herokuapp.com/order/user/${user.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -37,7 +37,7 @@ const MyOrder = () => {
     const handleDelate = id => {
         const proceed = window.confirm('Are You Sure Delate This ???')
         if (proceed) {
-            const url = `http://localhost:7000/product/${id}`
+            const url = `https://gentle-peak-72216.herokuapp.com/product/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

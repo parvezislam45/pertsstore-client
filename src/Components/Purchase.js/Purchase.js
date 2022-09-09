@@ -11,7 +11,7 @@ const Purchase = () => {
     const { register, handleSubmit } = useForm();
     const [minimumError,setMinimumError]=useState('');
     const { isLoading, data: singleProduct,refetch} = useQuery('singleProduct', () =>
-    fetch(`http://localhost:7000/product/${params.id}`).then(res =>
+    fetch(`https://gentle-peak-72216.herokuapp.com/product/${params.id}`).then(res =>
       res.json()
     )
   )
@@ -36,7 +36,7 @@ const Purchase = () => {
           price:singleProduct.price
       }
       const restQuantity= singleProduct.stock-order.quantity
-      fetch("http://localhost:7000/order", {
+      fetch("https://gentle-peak-72216.herokuapp.com/order", {
           method: 'POST',
           headers: {
               'content-type': 'application/json'
@@ -46,7 +46,7 @@ const Purchase = () => {
       .then(res =>res.json())
       .then(data =>{
           console.log(data)
-          fetch(`http://localhost:7000/product/${params.id}`, {
+          fetch(`https://gentle-peak-72216.herokuapp.com/product/${params.id}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json'

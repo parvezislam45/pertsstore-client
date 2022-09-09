@@ -4,7 +4,7 @@ import Loading from '../Pages/Loading'
 import UserRow from './UserRow'
 
 const AllUser = () => {
-    const { data: users, isLoading,refetch} = useQuery('users', () => fetch('http://localhost:7000/user', {
+    const { data: users, isLoading,refetch} = useQuery('users', () => fetch('https://gentle-peak-72216.herokuapp.com/user', {
         method: 'GET',
         headers:{
             authorization: `Bearer ${localStorage.getItem('accessToken')}`

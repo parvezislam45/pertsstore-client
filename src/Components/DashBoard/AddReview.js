@@ -7,7 +7,7 @@ const AddReview = () => {
     const params = useParams();
     const [setSingleProduct] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:7000/product${params.id}`)
+        fetch(`https://gentle-peak-72216.herokuapp.com/product${params.id}`)
           .then((res) => res.json())
           .then((data) => setSingleProduct(data));
       }, []);
@@ -18,7 +18,7 @@ const AddReview = () => {
             img: data.img,
             ratting: data.ratting,
         }
-        fetch('http://localhost:7000/review', {
+        fetch('https://gentle-peak-72216.herokuapp.com/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
